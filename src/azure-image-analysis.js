@@ -14,10 +14,8 @@ require('dotenv').config();
  * AUTHENTICATE
  * This single client is used for all examples.
  */
-const key = 'c9b033b7310b48388922fc7efbfdeded'/*process.env.VISION_KEY*/;
-//const key = process.env.VISION_KEY;
-const endpoint = 'https://challenge-image-analysis.cognitiveservices.azure.com/'/*process.env.VISION_ENDPOINT*/;
-//const endpoint = process.env.VISION_ENDPOINT || '';
+const key = process.env.VISION_KEY;
+const endpoint = process.env.VISION_ENDPOINT || '';
 
 // function to check if key and endpoint are set in the environment variables
 const isConfigured = () => {
