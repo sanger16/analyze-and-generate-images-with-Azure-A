@@ -1,6 +1,6 @@
 import React from 'react';
 /* Import analyseImage */
-import {analyseImage, isConfigured} from './azure-image-analysis';
+import {analyseImage, isConfigured} from './azure-image-analysis.js';
 
 
 
